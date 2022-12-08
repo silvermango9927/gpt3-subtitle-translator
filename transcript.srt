@@ -1,0 +1,137 @@
+1
+00:00:00,080 --> 00:00:02,399
+firebase a suite of tools for building
+
+2
+00:00:02,399 --> 00:00:04,560
+apps and managing infrastructure on top
+
+3
+00:00:04,560 --> 00:00:06,480
+of google cloud platform it was founded
+
+4
+00:00:06,480 --> 00:00:09,360
+by james tamplin and andrew lee in 2011
+
+5
+00:00:09,360 --> 00:00:10,880
+after they discovered that developers
+
+6
+00:00:10,880 --> 00:00:12,880
+were using their chat software to manage
+
+7
+00:00:12,880 --> 00:00:15,280
+non-chat application data this inspired
+
+8
+00:00:15,280 --> 00:00:17,359
+them to create a real-time database a
+
+9
+00:00:17,359 --> 00:00:19,439
+json database that automatically stays
+
+10
+00:00:19,439 --> 00:00:21,279
+in sync with your front-end application
+
+11
+00:00:21,279 --> 00:00:23,199
+it was later expanded to support user
+
+12
+00:00:23,199 --> 00:00:25,119
+authentication and website hosting to
+
+13
+00:00:25,119 --> 00:00:27,199
+act as a complete backend as a service
+
+14
+00:00:27,199 --> 00:00:29,439
+in 2014 it was acquired by google where
+
+15
+00:00:29,439 --> 00:00:31,119
+it was further expanded with serverless
+
+16
+00:00:31,119 --> 00:00:32,880
+computing via cloud functions push
+
+17
+00:00:32,880 --> 00:00:34,960
+notifications via cloud messaging and
+
+18
+00:00:34,960 --> 00:00:37,120
+other google services like analytics and
+
+19
+00:00:37,120 --> 00:00:39,760
+admob in 2017 google acquired fabric
+
+20
+00:00:39,760 --> 00:00:41,520
+from twitter and also launched a new
+
+21
+00:00:41,520 --> 00:00:43,360
+document database called firestore to
+
+22
+00:00:43,360 --> 00:00:45,360
+support a wider range of applications
+
+23
+00:00:45,360 --> 00:00:46,879
+most importantly though firebase
+
+24
+00:00:46,879 --> 00:00:48,480
+provides software development kits for
+
+25
+00:00:48,480 --> 00:00:50,480
+virtually every platform to manage and
+
+26
+00:00:50,480 --> 00:00:52,160
+scale this infrastructure with little to
+
+27
+00:00:52,160 --> 00:00:54,239
+no back-end code to build a full stack
+
+28
+00:00:54,239 --> 00:00:55,760
+application right now create a free
+
+29
+00:00:55,760 --> 00:00:57,760
+firebase project then open up some code
+
+30
+00:00:57,760 --> 00:00:59,359
+for your favorite front-end platform
+
+31
+00:00:59,359 --> 00:01:01,440
+install the firebase sdk then connect it
+
+32
+00:01:01,440 --> 00:01:02,879
+to the cloud with your project
+
+33
+00:01:02,879 --> 00:01:04,559
+credentials once initialized you can
+
+34
+00:01:04,559 --> 00:01:06,000
+start interacting with your backend
+
+
