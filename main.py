@@ -9,7 +9,6 @@ openai.api_key = vals['OPENAI_API_KEY']
 
 
 str = input('Enter the language you wish to see the transcript in : ')
-# translation = ''
 translation=[]
 
 with open('transcript.srt', 'r') as f:
@@ -18,7 +17,6 @@ with open('transcript.srt', 'r') as f:
     for d in data:
         # print(d)
         c=d.split('\n\n')
-        # print(c[0][0])
         if c[0][0].isalpha():
             # print(c[0])
             prompt = "Translate the following text to {language} : {text}".format(language=str, text=c[0].replace('\n', ' '))            
@@ -33,16 +31,13 @@ with open('transcript.srt', 'r') as f:
             )
             for choice in response['choices']:
                 sum=(choice['text'])
-                # print(translation)
                 translation.append(sum)
-        # print(d)
 # print(translation)
 
 # Writing out the translations in the same format as transcript.srt into another srt file
 translated_data = []
 with open('transcript.srt', 'r') as f:
     data = f.readlines()
-    # print('hello' if map(lambda x: x.isalpha(), data) else '\n') 
     i=0
     for d in data:
         c=d.split('\n\n')
@@ -55,6 +50,3 @@ with open('transcript.srt', 'r') as f:
 print(translated_data)
 with open('translation.srt', 'w') as f:
     f.writelines(translated_data)
-
-x = st.slider('x')  # 👈 this is a widget
-st.write(x, 'squared is', x * x)
